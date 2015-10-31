@@ -1,0 +1,12 @@
+name: AdminMode
+main: me.tehkitti.AdminMode.Main
+version: 1.0.0
+author: TehKitti
+commands:
+    admin:
+        description: Sets you to creative and vanishes you.
+        usage: /admin
+permissions:
+    adminmode.admin:
+        description: Allows you to do /admin
+        default: op
